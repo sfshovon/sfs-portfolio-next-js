@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#d7f0ff] text-[#1f2937] tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Poppins]
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+  
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#3c8f8f] to-[#52c8a6] text-white
+  }
+}
+
+.animated-text-left {
+	animation: appear-from-left 2s;
+}
+.animated-text-right {
+	animation: appear-from-right 2s;
+}
+.animated-text-top {
+	animation: appear-from-top 2s;
+}
+.animated-text-bottom {
+	animation: appear-from-bottom 2s;
+}
+
+@keyframes appear-from-left {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes appear-from-right {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes appear-from-top {
+	from {
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+@keyframes appear-from-bottom {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}

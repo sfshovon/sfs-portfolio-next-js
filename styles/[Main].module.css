@@ -1,0 +1,48 @@
+.animated-text-left {
+	animation: appear-from-left 2s;
+}
+.animated-text-right {
+	animation: appear-from-right 2s;
+}
+.animated-text-top {
+	animation: appear-from-top 2s;
+}
+.animated-text-bottom {
+	animation: appear-from-bottom 2s;
+}
+
+@keyframes appear-from-left {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes appear-from-right {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes appear-from-top {
+	from {
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+@keyframes appear-from-bottom {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
