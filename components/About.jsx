@@ -1,30 +1,46 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import AboutImg from '../public/assets/me_2.png';
+import { useState } from 'react';
+import Education from './Education';
+import Experience from './Experience';
 
 const About = () => {
-  return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <h2 className='uppercase tracking-widest text-[#262452] mb-5 mt-16'>
-            About
-          </h2>
+  const [showEducation, setShowEducation] = useState(true);
 
-          <p className='py-2 text-gray-600 text-xl text-justify font-semibold'>
-          "Drive yourself toward positivity; the outcome will be positive as well," is my personal belief. A CSE graduate who is passionate, hardworking, self-driven, adaptive, and able to work both independently and in a team. Seeking a position where the knowledge obtained will be utilized effectively and advance my professional career.
-          </p>
-         
-          <Link href='/#projects'>
-            <button className='mt-4 rounded-full uppercase text-xl px-4 py-2 text-white bg-cyan-700 cursor-pointer font-semibold hover:text-teal-800'>
-              Check out my projects
-            </button>
-          </Link>
+  const handleEducationClick = () => {
+    setShowEducation(true);
+  };
+
+  const handleExperienceClick = () => {
+    setShowEducation(false);
+  };
+
+  return (
+    <div id='about' className='w-full md:pt-32'>
+      <h2 className='mt-16 mb-8 md:mt-0 text-center uppercase tracking-widest text-[#262452]'>My Education & Experiences</h2>
+      <div className='flex justify-center items-center max-w-[1240px] mx-auto'>
+
+        <div className='w-full'> 
+          <button className={"rounded-xl font-bold text-2xl hover:scale-105 ease-in duration-300 w-full p-4 hover:text-gray-800 hover:border-teal-800"}
+            onClick={handleEducationClick}
+          >
+            Education
+          </button>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-cyan-800 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-blue-100'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+
+        <div className='w-full'>
+          <button
+            className={"rounded-xl font-bold text-2xl hover:scale-105 ease-in duration-300 w-full p-4 hover:text-gray-600 hover:border-teal-800"}
+            onClick={handleExperienceClick}
+          >
+            Experience
+          </button>
         </div>
+
       </div>
+
+      {
+        showEducation ? <Education/> : <Experience/>
+      }
+      
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import ycd from '../public/assets/projects/simple-react-js-restaurant.jpg';
+import ycd from '../../public/assets/projects/simple-react-js-restaurant.jpg';
 
 const YumCha = () => {
   return (
@@ -60,6 +60,9 @@ const YumCha = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
                 <RiRadioButtonFill className='pr-1' />  Firebase
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' />  Local Storage
               </p>
           
             </div>

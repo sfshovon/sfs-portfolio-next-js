@@ -23,10 +23,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Get In Touch</h2>
+                <h2 className='py-2 mt-8'>Connect With Me</h2>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://github.com/fireclint'
@@ -116,10 +115,9 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='flex justify-center items-center p-4 w-full mt-8 mb-4' onClick={() => window.open('mailto:sfs.shovon@gmail.com')}>
-                <FaPaperPlane className="mx-1 mr-4 hover:scale-125"></FaPaperPlane>
-                <span className="lowercase hover:text-cyan-800">sfs.shovon@gmail.com</span>
-              </button>
+                <button className='w-full p-4 text-gray-100 mt-4'>
+                  Send Message
+                </button>
               </form>
             </div>
           </div>

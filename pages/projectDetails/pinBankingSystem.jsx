@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import meet from '../public/assets/projects/meetify.jpg';
+import pinBanking from '../../public/assets/projects/simple-js-pin-matcher-banking-system.jpg';
 
-const Meetify = () => {
+const pinBankingSystem = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -12,12 +12,12 @@ const Meetify = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={meet}
+          src={pinBanking}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Meetify</h2>
-          <h3>React JS / ChatBot / Firebase</h3>
+          <h2 className='py-2'>Banking System</h2>
+          <h3>JavaScript</h3>
         </div>
       </div>
 
@@ -25,17 +25,17 @@ const Meetify = () => {
         <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='my-4'>
-            This site is still underconstruction. It's a simple company website with a Chatbot integrated with DialogFlow. Moreover, the main feature is the video calling UI like Zoom..
+            A simple pin matching and banking system project using HTML, CSS and JavaSript with dom manipulation.
           </p>
           <a
-            href='#'
+            href='https://github.com/sfshovon/simple-js-pin-matcher-banking-system'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Not Uploaded Yet</button>
           </a>
           <a
-            href='https://heyllo-meetify.netlify.app'
+            href='https://simple-js-pin-matcher-banking-system.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -47,24 +47,14 @@ const Meetify = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> DailogFlow
+                <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> TailwindCSS
+                <RiRadioButtonFill className='pr-1' /> JavaScript
               </p>
-              <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> DaisyUI
-              </p>
-              <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' />  Firebase
-              </p>
-          
             </div>
           </div>
         </div>
@@ -76,4 +66,4 @@ const Meetify = () => {
   );
 };
 
-export default Meetify;
+export default pinBankingSystem;

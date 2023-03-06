@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import pinBanking from '../public/assets/projects/simple-js-pin-matcher-banking-system.jpg';
+import fsv from '../../public/assets/projects/folder-system-viewer.jpg';
 
-const pinBankingSystem = () => {
+const folderSystemViewer = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -12,12 +12,12 @@ const pinBankingSystem = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={pinBanking}
+          src={fsv}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Banking System</h2>
-          <h3>JavaScript</h3>
+          <h2 className='py-2'>Folder System Viewer</h2>
+          <h3>React JS / Vanilla CSS </h3>
         </div>
       </div>
 
@@ -25,17 +25,17 @@ const pinBankingSystem = () => {
         <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='my-4'>
-            A simple pin matching and banking system project using HTML, CSS and JavaSript with dom manipulation.
+            This is a Folder Structure Viewer app made using React and Vanilla CSS.
           </p>
           <a
-            href='https://github.com/sfshovon/simple-js-pin-matcher-banking-system'
+            href='https://github.com/sfshovon/folder-structure-viewer'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Not Uploaded Yet</button>
+            <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Code</button>
           </a>
           <a
-            href='https://simple-js-pin-matcher-banking-system.netlify.app'
+            href='https://folder-system-structure-viewer.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -47,13 +47,10 @@ const pinBankingSystem = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> HTML
+                <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> CSS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> JavaScript
+                <RiRadioButtonFill className='pr-1' /> Vanilla CSS
               </p>
             </div>
           </div>
@@ -66,4 +63,4 @@ const pinBankingSystem = () => {
   );
 };
 
-export default pinBankingSystem;
+export default folderSystemViewer;

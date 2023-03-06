@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import iFinder from '../public/assets/projects/simple-js-api-food-player-country.jpg';
+import meet from '../../public//assets/projects/meetify.jpg';
 
-const informationFinder = () => {
+const Meetify = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -12,12 +12,12 @@ const informationFinder = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={iFinder}
+          src={meet}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Information Finder</h2>
-          <h3>JavaScript / API </h3>
+          <h2 className='py-2'>Meetify</h2>
+          <h3>React JS / ChatBot / Firebase</h3>
         </div>
       </div>
 
@@ -25,17 +25,17 @@ const informationFinder = () => {
         <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='my-4'>
-            A simple JavaSript app with restcountries, themealdb, thesportsdb API using TaildwindCSS and DaisyUI.
+            This site is still underconstruction. It's a simple company website with a Chatbot integrated with DialogFlow. Moreover, the main feature is the video calling UI like Zoom..
           </p>
           <a
-            href='https://github.com/sfshovon/simple-js-api-food-player-country'
+            href='#'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Not Uploaded Yet</button>
           </a>
           <a
-            href='https://simple-js-api-food-player-country.netlify.app'
+            href='https://heyllo-meetify.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -47,10 +47,10 @@ const informationFinder = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
-                <RiRadioButtonFill className='pr-1' /> API
+                <RiRadioButtonFill className='pr-1' /> DailogFlow
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
                 <RiRadioButtonFill className='pr-1' /> TailwindCSS
@@ -58,6 +58,13 @@ const informationFinder = () => {
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
                 <RiRadioButtonFill className='pr-1' /> DaisyUI
               </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' /> Javascript
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' />  Firebase
+              </p>
+          
             </div>
           </div>
         </div>
@@ -69,4 +76,4 @@ const informationFinder = () => {
   );
 };
 
-export default informationFinder;
+export default Meetify;
