@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Education from './Education';
-import Experience from './Experience';
+import Education from '../components/About/Education';
+import Experience from '../components/About/Experience';
 
 const About = () => {
   const [showEducation, setShowEducation] = useState(true);

@@ -1,3 +1,4 @@
+import ProjectItem from '../components/Projects/ProjectItem';
 import folderSystemViewer from '../public/assets/projects/folder-system-viewer.jpg';
 import meetify from '../public/assets/projects/meetify.jpg';
 import iPhoneStore from '../public/assets/projects/simple-bootstrap-responsive-project-1.jpg';
@@ -9,7 +10,6 @@ import regularWorkTracker from '../public/assets/projects/simple-js-todo-app.jpg
 import groceryStore from '../public/assets/projects/simple-react-js-grocery-store.jpg';
 import connectingHub from '../public/assets/projects/simple-react-js-mui-responsive-social-media.jpg';
 import yumCha from '../public/assets/projects/simple-react-js-restaurant.jpg';
-import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (

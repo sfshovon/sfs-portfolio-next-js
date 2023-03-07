@@ -15,10 +15,17 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === '/property' ||
-      router.asPath === '/crypto' ||
-      router.asPath === '/netflix' ||
-      router.asPath === '/twitch'
+      router.asPath === '/projectDetails/connectingHub' ||
+      router.asPath === '/projectDetails/cookingMania' ||
+      router.asPath === '/projectDetails/dailyForecast' ||
+      router.asPath === '/projectDetails/folderSystemViewer' ||
+      router.asPath === '/projectDetails/groceryStore' ||
+      router.asPath === '/projectDetails/informationFinder' ||
+      router.asPath === '/projectDetails/iPhoneStore' ||
+      router.asPath === '/projectDetails/meetify' ||
+      router.asPath === '/projectDetails/pinBankingSystem' ||
+      router.asPath === '/projectDetails/regularWorkTracker' ||
+      router.asPath === '/projectDetails/yumCha'
     ) {
       setNavBg('#3B3D44');
       setLinkColor('gray');
