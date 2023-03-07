@@ -54,7 +54,7 @@ const RightSide = () => {
             <textarea rows='10' name='message' className='border-2 rounded-lg p-3 border-gray-300'
             required></textarea>
           </div>
-          <button className='w-full p-4 text-gray-100 mt-4'>
+          <button className='w-full p-4 text-gray-100 mt-4 hover:scale-105 ease-in duration-300 hover:text-cyan-800'>
             Send Message
           </button>
         </form>

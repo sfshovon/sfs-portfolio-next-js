@@ -28,11 +28,11 @@ const Meetify = () => {
             This site is still underconstruction. It's a simple company website with a Chatbot integrated with DialogFlow. Moreover, the main feature is the video calling UI like Zoom..
           </p>
           <a
-            href='#'
+            href='https://github.com/sfshovon/heyllo-meetify'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Not Uploaded Yet</button>
+            <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Code</button>
           </a>
           <a
             href='https://heyllo-meetify.netlify.app'
