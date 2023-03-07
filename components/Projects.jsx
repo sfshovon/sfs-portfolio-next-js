@@ -10,6 +10,7 @@ import regularWorkTracker from '../public/assets/projects/simple-js-todo-app.jpg
 import groceryStore from '../public/assets/projects/simple-react-js-grocery-store.jpg';
 import connectingHub from '../public/assets/projects/simple-react-js-mui-responsive-social-media.jpg';
 import yumCha from '../public/assets/projects/simple-react-js-restaurant.jpg';
+import crudApp from '../public/assets/projects/simple-react-node-mongo-crud.jpg';
 
 const Projects = () => {
   return (
@@ -84,6 +85,12 @@ const Projects = () => {
             backgroundImg={cookingMania}
             projectUrl='/projectDetails/cookingMania'
             tech='HTML & CSS'
+          />
+          <ProjectItem
+            title='CRUD App'
+            backgroundImg={crudApp}
+            projectUrl='/projectDetails/crudApp'
+            tech='MERN'
           />
         </div>
       </div>
