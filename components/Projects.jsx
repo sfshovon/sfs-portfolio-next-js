@@ -11,6 +11,7 @@ import groceryStore from '../public/assets/projects/simple-react-js-grocery-stor
 import connectingHub from '../public/assets/projects/simple-react-js-mui-responsive-social-media.jpg';
 import yumCha from '../public/assets/projects/simple-react-js-restaurant.jpg';
 import crudApp from '../public/assets/projects/simple-react-node-mongo-crud.jpg';
+import xclusiveMart from '../public/assets/projects/xclusive-mart.jpg';
 
 const Projects = () => {
   return (
@@ -31,6 +32,18 @@ const Projects = () => {
             backgroundImg={meetify}
             projectUrl='/projectDetails/meetify'
             tech='React JS'
+          />
+          <ProjectItem
+            title='Xclusive Mart'
+            backgroundImg={xclusiveMart}
+            projectUrl='/projectDetails/xclusiveMart'
+            tech='MERN'
+          />
+           <ProjectItem
+            title='CRUD App'
+            backgroundImg={crudApp}
+            projectUrl='/projectDetails/crudApp'
+            tech='MERN'
           />
           <ProjectItem
             title='Information Finder'
@@ -85,12 +98,6 @@ const Projects = () => {
             backgroundImg={cookingMania}
             projectUrl='/projectDetails/cookingMania'
             tech='HTML & CSS'
-          />
-          <ProjectItem
-            title='CRUD App'
-            backgroundImg={crudApp}
-            projectUrl='/projectDetails/crudApp'
-            tech='MERN'
           />
         </div>
       </div>
