@@ -1,6 +1,7 @@
 import ProjectItem from '../components/Projects/ProjectItem';
 import folderSystemViewer from '../public/assets/projects/folder-system-viewer.jpg';
 import meetify from '../public/assets/projects/meetify.jpg';
+import scoreboard from '../public/assets/projects/redux-with-js-scoreboard.jpg';
 import iPhoneStore from '../public/assets/projects/simple-bootstrap-responsive-project-1.jpg';
 import cookingMania from '../public/assets/projects/simple-html-css-responsive-project-1.jpg';
 import informationFinder from '../public/assets/projects/simple-js-api-food-player-country.jpg';
@@ -39,7 +40,13 @@ const Projects = () => {
             projectUrl='/projectDetails/xclusiveMart'
             tech='MERN'
           />
-           <ProjectItem
+          <ProjectItem
+            title='Scoreboard'
+            backgroundImg={scoreboard}
+            projectUrl='/projectDetails/scoreboard'
+            tech='Redux'
+          />
+          <ProjectItem
             title='CRUD App'
             backgroundImg={crudApp}
             projectUrl='/projectDetails/crudApp'
