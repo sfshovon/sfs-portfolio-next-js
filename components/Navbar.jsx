@@ -84,9 +84,6 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b font-bold transition ease-in-out duration-150 hover:bg-violet-200 rounded-full p-3'>
-              <Link href='/resume'>Resume</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b font-bold transition ease-in-out duration-150 hover:bg-violet-200 rounded-full p-3'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
