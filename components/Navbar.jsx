@@ -22,7 +22,7 @@ const Navbar = () => {
       router.asPath === '/projectDetails/groceryStore' ||
       router.asPath === '/projectDetails/informationFinder' ||
       router.asPath === '/projectDetails/iPhoneStore' ||
-      router.asPath === '/projectDetails/meetify' ||
+      router.asPath === '/projectDetails/jobConnect' ||
       router.asPath === '/projectDetails/pinBankingSystem' ||
       router.asPath === '/projectDetails/regularWorkTracker' ||
       router.asPath === '/projectDetails/yumCha'

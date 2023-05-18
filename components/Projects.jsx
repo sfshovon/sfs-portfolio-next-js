@@ -1,6 +1,6 @@
 import ProjectItem from '../components/Projects/ProjectItem';
 import folderSystemViewer from '../public/assets/projects/folder-system-viewer.jpg';
-import meetify from '../public/assets/projects/meetify.jpg';
+import jc from '../public/assets/projects/job-connect.jpg';
 import scoreboard from '../public/assets/projects/redux-with-js-scoreboard.jpg';
 import iPhoneStore from '../public/assets/projects/simple-bootstrap-responsive-project-1.jpg';
 import cookingMania from '../public/assets/projects/simple-html-css-responsive-project-1.jpg';
@@ -29,9 +29,9 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Meetify'
-            backgroundImg={meetify}
-            projectUrl='/projectDetails/meetify'
+            title='Job Connect'
+            backgroundImg={jc}
+            projectUrl='/projectDetails/jobConnect'
             tech='React JS'
           />
           <ProjectItem

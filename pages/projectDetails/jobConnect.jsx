@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import meet from '../../public//assets/projects/meetify.jpg';
+import jc from '../../public//assets/projects/job-connect.jpg';
 
-const Meetify = () => {
+const JobConnect = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -12,11 +12,11 @@ const Meetify = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={meet}
+          src={jc}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Meetify</h2>
+          <h2 className='py-2'>Job Connect</h2>
           <h3>React JS / ChatBot / Firebase</h3>
         </div>
       </div>
@@ -25,17 +25,17 @@ const Meetify = () => {
         <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='my-4'>
-            This site is still underconstruction. It's a simple company website with a Chatbot integrated with DialogFlow. Moreover, the main feature is the video calling UI like Zoom..
+            This is a simple company website with a Chatbot integrated with DialogFlow.
           </p>
           <a
-            href='https://github.com/sfshovon/heyllo-meetify'
+            href='https://github.com/sfshovon/job-connect'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Code</button>
           </a>
           <a
-            href='https://heyllo-meetify.netlify.app'
+            href='https://job-connect.vercel.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -76,4 +76,4 @@ const Meetify = () => {
   );
 };
 
-export default Meetify;
+export default JobConnect;

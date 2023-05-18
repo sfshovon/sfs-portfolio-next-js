@@ -16,7 +16,7 @@ const Experience = () => {
               </li>
             </ul>  
           </div>
-          <h2 className="text-center text-slate-700 font-semibold hover:text-red-900">Feb 2022-Jun 2022</h2>
+          <h2 className="text-2xl text-center text-slate-700 font-semibold hover:text-red-900">Feb 2022-Jun 2022</h2>
         </div>
 
         <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-200 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
@@ -32,7 +32,7 @@ const Experience = () => {
               </li>
             </ul>  
           </div>
-          <h2 className="text-center text-slate-700 font-semibold hover:text-red-900">Jan 2022 - May 2022</h2>
+          <h2 className="text-2xl text-center text-slate-700 font-semibold hover:text-red-900">Jan 2022 - May 2022</h2>
         </div>
       
         <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-200 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
@@ -48,7 +48,7 @@ const Experience = () => {
               </li>
             </ul>  
             </div>
-            <h2 className="text-center text-slate-700 font-semibold hover:text-red-900">Oct 2021 - Jan 2022</h2>
+            <h2 className="text-2xl text-center text-slate-700 font-semibold hover:text-red-900">Oct 2021 - Jan 2022</h2>
           </div>
       </div>
   );
