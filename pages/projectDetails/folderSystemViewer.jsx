@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -6,12 +7,14 @@ import fsv from '../../public/assets/projects/folder-system-viewer.jpg';
 const folderSystemViewer = () => {
   return (
     <div className='w-full'>
+      <Head>
+        <title>Project - Folder Structure</title>
+      </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill='fill'
           src={fsv}
           alt='/'
         />

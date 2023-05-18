@@ -12,6 +12,7 @@ import groceryStore from '../public/assets/projects/simple-react-js-grocery-stor
 import connectingHub from '../public/assets/projects/simple-react-js-mui-responsive-social-media.jpg';
 import yumCha from '../public/assets/projects/simple-react-js-restaurant.jpg';
 import crudApp from '../public/assets/projects/simple-react-node-mongo-crud.jpg';
+import tb from '../public/assets/projects/teebay.jpg';
 import xclusiveMart from '../public/assets/projects/xclusive-mart.jpg';
 
 const Projects = () => {
@@ -21,12 +22,18 @@ const Projects = () => {
         <h2 className='uppercase tracking-widest text-[#262452] mt-20'>
           Projects
         </h2>
-        <div className='grid md:grid-cols-2 gap-12'>
+        <div className='grid md:grid-cols-3 gap-6'>
           <ProjectItem
             title='Yum Cha District'
             backgroundImg={yumCha}
             projectUrl='/projectDetails/yumCha'
             tech='React JS'
+          />
+          <ProjectItem
+            title='Teebay'
+            backgroundImg={tb}
+            projectUrl='/projectDetails/teebay'
+            tech='PERN'
           />
           <ProjectItem
             title='Job Connect'

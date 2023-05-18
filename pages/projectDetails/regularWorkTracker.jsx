@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -6,12 +7,14 @@ import workTracker from '../../public/assets/projects/simple-js-todo-app.jpg';
 const regularWorkTracker = () => {
   return (
     <div className='w-full'>
+      <Head>
+        <title>Project - Regular Work Tracker</title>
+      </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill='fill'
           src={workTracker}
           alt='/'
         />
