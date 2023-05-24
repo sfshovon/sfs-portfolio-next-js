@@ -2,13 +2,14 @@ import Image from 'next/image';
 import ExpressJS from '../../public/assets/skills/Express.png';
 import Firebase from '../../public/assets/skills/Firebase.png';
 import GraphQL from '../../public/assets/skills/GraphQL.png';
-import Rest from '../../public/assets/skills/Rest_API.png';
-import MongoDB from '../../public/assets/skills/MongoDB.png';
-import MySQL from '../../public/assets/skills/My_SQL.png';
 import Knex from '../../public/assets/skills/Knex.png';
+import MongoDB from '../../public/assets/skills/MongoDB.png';
+import Mongoose from '../../public/assets/skills/Mongoose.png';
+import MySQL from '../../public/assets/skills/My_SQL.png';
 import NodeJS from '../../public/assets/skills/Node.png';
 import PostgreSQL from '../../public/assets/skills/PostgreSQL.png';
 import Prisma from '../../public/assets/skills/Prisma.png';
+import Rest from '../../public/assets/skills/Rest_API.png';
 import Socket from '../../public/assets/skills/Socket.png';
 
 const Backend = () => {
@@ -17,20 +18,20 @@ const Backend = () => {
             <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <Image src={Firebase} width='64px' height='64px' alt='/' />
+                  <Image src={MongoDB} width='64px' height='64px' alt='/' />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>Firebase</h3>
+                  <h3>MongoDB</h3>
                 </div>
               </div>
             </div>
             <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <Image src={MongoDB} width='64px' height='64px' alt='/' />
+                  <Image src={PostgreSQL} width='64px' height='64px' alt='/' />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>MongoDB</h3>
+                  <h3>PostgreSQL</h3>
                 </div>
               </div>
             </div>
@@ -47,20 +48,40 @@ const Backend = () => {
             <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <Image src={Knex} width='64px' height='64px' alt='/' />
+                  <Image src={Firebase} width='64px' height='64px' alt='/' />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>Knex</h3>
+                  <h3>Firebase</h3>
                 </div>
               </div>
             </div>
             <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                  <Image src={PostgreSQL} width='64px' height='64px' alt='/' />
+                  <Image src={Mongoose} width='64px' height='64px' alt='/' />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>PostgreSQL</h3>
+                  <h3>Mongoose</h3>
+                </div>
+              </div>
+            </div>
+            <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+              <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                  <Image src={Prisma} width='64px' height='64px' alt='/' />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                  <h3>Prisma</h3>
+                </div>
+              </div>
+            </div>
+            <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+              <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                  <Image src={Knex} width='64px' height='64px' alt='/' />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                  <h3>Knex</h3>
                 </div>
               </div>
             </div>
@@ -94,16 +115,7 @@ const Backend = () => {
                 </div>
               </div>
             </div>
-            <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-              <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
-                <div className='m-auto'>
-                  <Image src={Prisma} width='64px' height='64px' alt='/' />
-                </div>
-                <div className='flex flex-col items-center justify-center'>
-                  <h3>Prisma</h3>
-                </div>
-              </div>
-            </div>
+            
             <div className='p-3 md:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='grid grid-cols-2 gap-8 md:gap-4 justify-center items-center'>
                 <div className='m-auto'>

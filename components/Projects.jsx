@@ -1,4 +1,5 @@
 import ProjectItem from '../components/Projects/ProjectItem';
+import expenseTracker from '../public/assets/projects/expense-tracker.jpg';
 import folderSystemViewer from '../public/assets/projects/folder-system-viewer.jpg';
 import jc from '../public/assets/projects/job-connect.jpg';
 import scoreboard from '../public/assets/projects/redux-with-js-scoreboard.jpg';
@@ -24,16 +25,22 @@ const Projects = () => {
         </h2>
         <div className='grid md:grid-cols-3 gap-6'>
           <ProjectItem
-            title='Yum Cha District'
-            backgroundImg={yumCha}
-            projectUrl='/projectDetails/yumCha'
-            tech='React JS'
+            title='Expense Tracker'
+            backgroundImg={expenseTracker}
+            projectUrl='/projectDetails/expenseTracker'
+            tech='MERN'
           />
           <ProjectItem
             title='Teebay'
             backgroundImg={tb}
             projectUrl='/projectDetails/teebay'
             tech='PERN'
+          />
+          <ProjectItem
+            title='Yum Cha District'
+            backgroundImg={yumCha}
+            projectUrl='/projectDetails/yumCha'
+            tech='React JS'
           />
           <ProjectItem
             title='Job Connect'

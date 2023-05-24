@@ -2,24 +2,24 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import xMart from '../../public/assets/projects/xclusive-mart.jpg';
+import eTracker from '../../public/assets/projects/expense-tracker.jpg';
 
-const xclusiveMart = () => {
+const expenseTracker = () => {
   return (
     <div className='w-full'>
       <Head>
-        <title>Project - xClusive Mart</title>
+        <title>Project - Expense Tracker</title>
       </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
           fill='fill'
-          src={xMart}
+          src={eTracker}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Xclusive Mart</h2>
+          <h2 className='py-2'>Expense Tracker</h2>
           <h3> MERN </h3>
         </div>
       </div>
@@ -28,24 +28,24 @@ const xclusiveMart = () => {
         <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='my-4'>
-            An e-Commerce product handler project using MERN Stack and Pagination.
+            An expense tracking application using MERN. Expense can be calculated date wise and history of the expenses are shown as a graph.
           </p>
           <a
-            href='https://github.com/sfshovon/simple-react-node-mongo-crud-client-side'
+            href='https://github.com/sfshovon/expense-tracking-application-server'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Front-End Code</button>
           </a>
           <a
-            href='https://github.com/sfshovon/xclusive-mart-client-side'
+            href='https://github.com/sfshovon/expense-tracking-application-client'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 font-bold hover:text-gray-800 hover:scale-105'>Backend Code</button>
           </a>
           <a
-            href='https://xclusive-mart-client-side.vercel.app'
+            href='https://expense-tracking-application-client.vercel.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -69,6 +69,21 @@ const xclusiveMart = () => {
                 <RiRadioButtonFill className='pr-1' /> MongoDB
               </p>
               <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' /> Mongoose
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' /> Recharts
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' /> React Hook Form
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' /> React Select
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
+                <RiRadioButtonFill className='pr-1' /> React DatePicker
+              </p>
+              <p className='text-gray-600 py-2 flex items-center font-semibold'>
                 <RiRadioButtonFill className='pr-1' /> TailwindCSS
               </p>
             </div>
@@ -82,4 +97,4 @@ const xclusiveMart = () => {
   );
 };
 
-export default xclusiveMart;
+export default expenseTracker;
