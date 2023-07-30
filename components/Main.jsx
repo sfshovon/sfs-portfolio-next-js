@@ -10,13 +10,13 @@ const Main = () => {
 
        <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
         <div className='mt-32'>
-        <h3 className='tracking-widest text-gray-600 animated-text-top'>
+        <h3 className='text-xl tracking-widest text-gray-600 animated-text-top'>
             Welcome to <span className='font-bold'>SFS</span>'s Portfolio
           </h3>
           <h1 className='py-4 text-2xl md:text-4xl text-gray-700 animated-text-left'>
             Hi, I'm <span className='text-cyan-800'> Shahriar Ferdous Shovon </span>
           </h1>
-          <h2 className='py-2 text-lg md:text-xl text-gray-700 animated-text-left'>A Computer Science Engineer</h2>
+          <h2 className='font-sans py-2 text-lg md:text-2xl text-gray-700 animated-text-left'>Software Engineer</h2>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4  animated-text-left'>
             <a
               href='https://github.com/sfshovon'
